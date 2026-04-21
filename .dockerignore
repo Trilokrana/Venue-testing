@@ -1,0 +1,30 @@
+# dependencies
+node_modules
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# next
+.next
+out
+
+# git / editor
+.git
+.gitignore
+.cursor
+*.md
+!README.md
+
+# env (injected at build/run via compose)
+.env
+.env.*
+!.env.example
+
+# misc
+.DS_Store
+*.pem
+.vercel
+coverage
+*.tsbuildinfo
+next-env.d.ts
